@@ -10,8 +10,8 @@ class ContactItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      margin: const EdgeInsets.symmetric(vertical: 10.0), // زيادة حجم الحافة الخارجية
-      padding: const EdgeInsets.all(20.0), // زيادة حجم الحافة الداخلية
+      margin: const EdgeInsets.symmetric(vertical: 10.0),
+      padding: const EdgeInsets.all(20.0),
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(30.0),
